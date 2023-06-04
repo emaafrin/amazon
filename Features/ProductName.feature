@@ -2,7 +2,8 @@ Feature: Login to amazon account
 
 Scenario Outline: Login to amazon account
 
-Given I am on the amazon homepage 
+
+Given i am on the amazon page
 
 When i click on the sign in button 
 And I enter the "<User_Name>" in user name input field 
