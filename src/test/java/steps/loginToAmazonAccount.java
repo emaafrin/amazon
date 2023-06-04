@@ -10,13 +10,11 @@ import io.cucumber.java.en.When;
 
 public class loginToAmazonAccount extends AmazonBase {
 	amazonPage ap;
-	
-
 
 @Given("I am on the amazon homepage")
 public void i_am_on_the_amazon_homepage() {
-	
 	launghBorwser();
+    
 }
 
 @When("i click on the sign in button")
